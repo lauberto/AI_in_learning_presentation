@@ -1,0 +1,12 @@
+Abstract
+The CAT&kittens project is being developed to assist users who want to perfect their skills in
+academic Russian writing. The platform is aimed at comparing student texts (“kittens”) against a big
+corpus of academic texts (CAT).
+One of the future goals is developing an AI-supported algorithm, which allows for detecting and
+substituting erroneous collocations, for example, powerful coffee, instead of strong coffee. The
+main ideas beyond this service are, first, detecting incorrect collocations in a student text, and
+second, creating a list of substitutes, which are semantically similar, yet statistically correct. The
+goals are achieved using distributional semantic models, like word2vec, GLoVe, ELMo, BERT, and
+GPT models. Distributional semantic modeling allows for creating multidimensional vectorial spaces,
+where every word is assigned a vector in a semantic space. Using the vectorial representations one
+can retrieve collocations, which are similar in meaning — to the detected erroneous collocations.
